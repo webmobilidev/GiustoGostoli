@@ -7,10 +7,17 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-custom-config": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "xxxxx",
             "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
         },
         "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
+        },
+        "cordova-custom-config": {
             "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
         },
         "cordova-plugin-dialogs": {
@@ -25,13 +32,13 @@
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
         },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
-        },
-        "phonegap-plugin-push": {
-            "SENDER_ID": "xxxxx",
+        "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.giustogostoli.giustogostoli"
+        }
+    }
 }
